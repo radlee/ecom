@@ -9,32 +9,32 @@ class Directory extends React.Component {
             sections: [
                 {
                     title: 'Herbal Life',
-                    imageUrl: 'items/item1.jpg',
+                    imageUrl: 'items/herbal.png',
                     id: 1,
                     linkUrl: 'herbal-life'
                 },
                 {
                     title: 'Inuka',
-                    imageUrl: 'items/item1.jpg',
+                    imageUrl: 'items/inuka.png',
                     id: 2,
                     linkUrl: ''
                 },
                 {
                     title: 'Bags',
-                    imageUrl: 'items/item1.jpg',
+                    imageUrl: 'items/casual.jpg',
                     id: 3,
                     linkUrl: ''
                 },
                 {
                     title: 'Health',
-                    imageUrl: 'items/item1.jpg',
+                    imageUrl: 'items/health.jpg',
                     size: 'large',
                     id: 4,
                     linkUrl: ''
                 },
                 {
                     title: 'Cosmetics',
-                    imageUrl: 'items/item1.jpg',
+                    imageUrl: 'items/cosmetics.jpg',
                     size: 'large',
                     id: 5,
                     linkUrl: ''
