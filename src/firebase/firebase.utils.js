@@ -1,4 +1,4 @@
-import  firebase from 'firebase/app';
+import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
@@ -11,23 +11,23 @@ const config = {
     messagingSenderId: "1039925161452",
     appId: "1:1039925161452:web:eddca7b820aea3d4e4a4c9",
     measurementId: "G-NMWCEG5DZB"
-  }
+}
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
 
-    if(!userAuth) return;
+    if (!userAuth) return;
 
-    const userRef = firestore.doc(`users/${ userAuth }`);
+    const userRef = firestore.doc(`users/${userAuth.uid}`);
     const snapShot = await userRef.get();
 
-    if(!snapShot.exists) {
-        
+    if (!snapShot.exists) {
+
         const { displayName, email } = userAuth;
         const createdAt = new Date();
 
         try {
             await userRef.set({
-                displayName, 
+                displayName,
                 email,
                 createdAt,
                 ...additionalData
@@ -43,11 +43,16 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
 
 firebase.initializeApp(config);
 
+// if (!firebase.apps.length) {
+//     firebase.initializeApp({});
+// }
+
+
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
 
-const provider = new firebase.auth.GoogleAuthprovider();
-provider.setCustomParameters({ prompt: 'select-account' });
+const provider = new firebase.auth.GoogleAuthProvider();
+provider.setCustomParameters({ prompt: 'select_account' });
 export const signInWithGoogle = () => auth.signInWithPopup(provider);
 
 export default firebase;
