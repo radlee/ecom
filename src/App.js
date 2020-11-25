@@ -35,11 +35,13 @@ class App extends React.Component {
     this.unsubscribeFromAuth();
   }
 
+
+
   render() {
     return (
       <div>
         <Header />
-        <br /><hr /><br />
+        <br /><br />
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
