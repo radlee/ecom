@@ -4,33 +4,33 @@ const INITIAL_STATE = {
             title: 'Herbal Life',
             imageUrl: 'items/herbal.png',
             id: 1,
-            linkUrl: 'herbal-life'
+            linkUrl: 'shop/herbal'
         },
         {
             title: 'Inuka',
             imageUrl: 'items/inuka.png',
             id: 2,
-            linkUrl: ''
+            linkUrl: 'shop/inuka'
         },
         {
             title: 'Bags',
             imageUrl: 'items/casual.jpg',
             id: 3,
-            linkUrl: ''
+            linkUrl: 'shop/bags'
         },
         {
             title: 'Health',
             imageUrl: 'items/health.jpg',
             size: 'large',
             id: 4,
-            linkUrl: ''
+            linkUrl: 'shop/health'
         },
         {
             title: 'Cosmetics',
             imageUrl: 'items/cosmetics.jpg',
             size: 'large',
             id: 5,
-            linkUrl: ''
+            linkUrl: 'shop/cosmetics'
         },
 
     ]
