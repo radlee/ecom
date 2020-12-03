@@ -9,7 +9,7 @@
   .image {
     width: 100%;
     height: 95%;
-    background-size: center;
+    background-size: cover;
     background-position: center;
     margin-bottom: 5px;
   }
@@ -43,6 +43,10 @@
     .name {
       width: 90%;
       margin-bottom: 15px;
+    }
+
+    .price {
+      width: 10%;
     }
   }
 }

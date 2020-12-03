@@ -117,38 +117,56 @@ const SHOP_DATA = {
   },
   bags: {
     id: 3,
-    title: 'Jackets',
+    title: 'Bags and Backpacks',
     routeName: 'jackets',
     items: [
       {
-        id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125
+        id: 10,
+        name: 'KIPLING',
+        imageUrl: 'https://www.davidjones.com/productimages/thumb/1/2117566_20344712_3570135.jpg',
+        price: 220
       },
       {
-        id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90
+        id: 11,
+        name: 'TOMY HILFIGER',
+        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2082263_20229186_3569892.jpg',
+        price: 280
       },
       {
-        id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90
+        id: 12,
+        name: 'BALMAIN',
+        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2097949_20296556_3591026.jpg',
+        price: 110
       },
       {
-        id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165
+        id: 13,
+        name: 'FOSSIL - MEGAN MINI BACKPACK',
+        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/1903156_18610923_1408662.jpg',
+        price: 160
       },
       {
-        id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185
+        id: 14,
+        name: 'MCM - BRANDENBURG MULTI POLKA DOT BACKPACK (M)',
+        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2156069_20508517_5053022.jpg',
+        price: 160
+      },
+      {
+        id: 15,
+        name: 'MCM - HERITAGE LINE TAMBOURINE BAG (M)',
+        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2025900_20008446_3519469.jpg',
+        price: 160
+      },
+      {
+        id: 16,
+        name: 'LIPAULT',
+        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2032478_20033212_2944758.jpg',
+        price: 190
+      },
+      {
+        id: 17,
+        name: 'MCM',
+        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2074460_20201905_3635743.jpg',
+        price: 200
       }
     ]
   },
