@@ -1,8 +1,8 @@
 const SHOP_DATA = {
-  herbal: {
+  food: {
     id: 1,
-    title: 'Herbal Life',
-    routeName: 'herbal',
+    title: 'Food and Beverages',
+    routeName: 'food',
     items: [
       {
         id: 1,
@@ -117,56 +117,50 @@ const SHOP_DATA = {
   },
   bags: {
     id: 3,
-    title: 'Bags and Backpacks',
-    routeName: 'jackets',
+    title: 'Bags and Wallets',
+    routeName: 'bags',
     items: [
       {
         id: 10,
-        name: 'KIPLING',
-        imageUrl: 'https://www.davidjones.com/productimages/thumb/1/2117566_20344712_3570135.jpg',
-        price: 220
+        name: 'DJ 3001',
+        imageUrl: 'https://64.media.tumblr.com/2011f08f886287464bad56f134f2368c/d93ca401448dd26e-74/s540x810/15489e927cad43153a7939554a7c7a665461de63.jpg',
+        price: 390
       },
       {
         id: 11,
-        name: 'TOMY HILFIGER',
-        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2082263_20229186_3569892.jpg',
-        price: 280
+        name: 'DJ 143',
+        imageUrl: 'https://64.media.tumblr.com/0133f3208ded5485f3dc07d9a07cab9d/d93ca401448dd26e-7a/s1280x1920/fdca554e8191b82b3ef30bc83d0f01e9d5373ea7.jpg',
+        price: 290
       },
       {
         id: 12,
-        name: 'BALMAIN',
-        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2097949_20296556_3591026.jpg',
-        price: 110
+        name: 'DJ 144',
+        imageUrl: 'https://64.media.tumblr.com/ebc0bb8322d40a1f89f3fef44c159c9d/d93ca401448dd26e-03/s1280x1920/40f8642b466d7654763b32c9e80382eea31c0257.jpg',
+        price: 290
       },
       {
         id: 13,
-        name: 'FOSSIL - MEGAN MINI BACKPACK',
-        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/1903156_18610923_1408662.jpg',
-        price: 160
+        name: 'DJ 2098',
+        imageUrl: 'https://64.media.tumblr.com/40228e57b2195ea0431c18ee50f99e73/d93ca401448dd26e-c8/s1280x1920/2151cd31c9d539eef1ff8606b0eca8e4ea2eaed7.jpg',
+        price: 390
       },
       {
         id: 14,
-        name: 'MCM - BRANDENBURG MULTI POLKA DOT BACKPACK (M)',
-        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2156069_20508517_5053022.jpg',
-        price: 160
+        name: 'DJ 2087',
+        imageUrl: 'https://64.media.tumblr.com/51bc69bd39b3e52f4d8385760eba41b1/d93ca401448dd26e-47/s1280x1920/645bd6820329398f65a854f1c9eefaf7cd4a93e0.jpg',
+        price: 490
       },
       {
         id: 15,
-        name: 'MCM - HERITAGE LINE TAMBOURINE BAG (M)',
-        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2025900_20008446_3519469.jpg',
-        price: 160
+        name: 'DJ 2033',
+        imageUrl: 'https://64.media.tumblr.com/a170538adc47fbe6466493ef46317658/d93ca401448dd26e-da/s1280x1920/74e63b4d6d9b116307b0ac4f4c76a52494f56bb5.jpg',
+        price: 390
       },
       {
         id: 16,
-        name: 'LIPAULT',
-        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2032478_20033212_2944758.jpg',
-        price: 190
-      },
-      {
-        id: 17,
-        name: 'MCM',
-        imageUrl: 'https://www.davidjones.com/productimages/thumb/2/2074460_20201905_3635743.jpg',
-        price: 200
+        name: 'DJ 2063',
+        imageUrl: 'https://64.media.tumblr.com/8eff20e4257b50c6eec38d52f077fb43/d93ca401448dd26e-10/s1280x1920/09ac23ad871f1e18af2a4c3659a4d53de2ef63e1.jpg',
+        price: 470
       }
     ]
   },

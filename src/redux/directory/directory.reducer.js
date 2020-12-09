@@ -1,10 +1,10 @@
 const INITIAL_STATE = {
     sections: [
         {
-            title: 'Herbal Life',
-            imageUrl: 'items/herbal.png',
+            title: 'Bags',
+            imageUrl: 'items/bags.jpg',
             id: 1,
-            linkUrl: 'shop/herbal'
+            linkUrl: 'shop/bags'
         },
         {
             title: 'Inuka',
@@ -13,10 +13,10 @@ const INITIAL_STATE = {
             linkUrl: 'shop/inuka'
         },
         {
-            title: 'Bags',
-            imageUrl: 'items/casual.jpg',
+            title: 'Food',
+            imageUrl: 'items/food.jpg',
             id: 3,
-            linkUrl: 'shop/bags'
+            linkUrl: 'shop/food'
         },
         {
             title: 'Health',

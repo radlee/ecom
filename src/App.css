@@ -8,6 +8,11 @@ a {
   color: #000;
 }
 
+.name,
+.price {
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
 }
